@@ -50,7 +50,7 @@ function update() {
   }
 
   for (let i=snakeBody.length-1; i>0; i--) {
-    snakeBody[i] = snakeBody[i-1] // Strore the current part of the snake
+    snakeBody[i] = snakeBody[i-1] // Store the current part of the snake
   }
 
   if (snakeBody.length) {
@@ -83,19 +83,19 @@ function update() {
 }
 
 function changeDirection(event) {
-  if (event.code == "ArrowUp" && speedY != 1) { // If up arrow key pressed 
+  if (event.code == "ArrowUp" && speedY != 1) {
     speedX = 0
     speedY = -1
   }
-  else if (event.code == "ArrowDown" && speedY != -1) { //If down arrow key pressed
+  else if (event.code == "ArrowDown" && speedY != -1) {
     speedX = 0
     speedY = 1
   }
-  else if (event.code == "ArrowLeft" && speedX != 1) { //If left arrow key pressed
+  else if (event.code == "ArrowLeft" && speedX != 1) {
     speedX = -1
     speedY = 0
   }
-  else if (event.code == "ArrowRight" && speedX != -1) { //If Right arrow key pressed
+  else if (event.code == "ArrowRight" && speedX != -1) {
     speedX = 1
     speedY = 0
   }
