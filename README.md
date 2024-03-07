@@ -7,5 +7,5 @@ Used languages/technologies:
 - JavaScript
 - HTML
 
-It has some issues yet, what I goint to solve.
+It has some issues yet, what I am going to solve.
 - after the game ends it do not load in again
